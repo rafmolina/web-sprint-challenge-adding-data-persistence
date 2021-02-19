@@ -19,10 +19,11 @@ exports.up = function(knex) {
         tbl.string("task_notes", 300)
         tbl.boolean("task_completed").notNullable()
         tbl.integer("project_id")
-            .unsigned()
+            .unsigned() 
             .notNullable()
             .references("project_id")
             .inTable("projects")
+            .onDelete("RESTRICT")
     })
   
 };

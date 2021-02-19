@@ -112,6 +112,16 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+  Relational Database are data that have relation to each other in tables ie: recipes. Would need data that relate to each other, where SQL is software to manage
+the data in relational databases.
+
 2. Why do tables need a Primary Key?
+  It is a good design to give tables a primary key as they are unique and not duplicated. That gives them a certain purpose for columns
+  and accessable for calling into another table.
+
 3. What is the name given to a table column that references the Primary Key on another table?
+  It is named a Foreign Key (FK)
+
 4. What do we need in order to have a _many to many_ relationship between two tables?
+  When multiple records in a table are associated with multiple records in another table. Like employees selling products for you
+  they are able to sell all your products then making products being able to relate to all employees
